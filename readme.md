@@ -17,7 +17,7 @@ Ractive.decorators.selectOnFocus = require('ractive-select-on-focus')
 In your template:
 
 ```html
-<input type="text" decorator="selectOnFocus" value="{{shareUrl}}" readonly>
+<input type="text" as-selectOnFocus value="{{shareUrl}}" readonly>
 ```
 
 ## License
